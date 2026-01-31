@@ -1,0 +1,32 @@
+#include "resource.h"
+
+// أيقونة التطبيق
+IDI_APP_ICON ICON "resources\\app_icon.ico"
+
+// معلومات الإصدار
+1 VERSIONINFO
+FILEVERSION    1,0,0,1
+PRODUCTVERSION 1,0,0,1
+FILEOS         0x40004L
+FILETYPE       0x1L
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904B0"
+        {
+            VALUE "CompanyName", "Maher Company"
+            VALUE "FileDescription", "Maher Application"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "maher"
+            VALUE "LegalCopyright", "© 2024 Maher. All rights reserved."
+            VALUE "OriginalFilename", "maher.exe"
+            VALUE "ProductName", "Maher App"
+            VALUE "ProductVersion", "1.0.0.1"
+        }
+    }
+    
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 1200
+    }
+}
